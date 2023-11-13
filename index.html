@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nasa</title>
+</head>
+
+<body>
+
+    <iframe id="frame" src="" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+
+    <div class="nasaContainer">
+        <h3>NASA Astronomy Picture of the Day</h3>
+        <select name="" id="select">
+            <option value="0" selected disabled>--choose the type of media--</option>
+            <option value="1">image</option>
+            <option disabled value="2">video</option>
+        </select>
+        <div class="details check">
+            <p class="title"></p>
+            <p class="explanation"></p>
+            <p class="date"></p>
+        </div>
+        <button type="button" class="btn activate ">Load</button>
+        <div class="btns">
+            <button type="button" class="btn prev">Previous</button>
+            <button class="btn next">Next</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
